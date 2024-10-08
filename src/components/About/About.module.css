@@ -1,0 +1,39 @@
+.about {
+  width: 50vw;
+}
+
+.aboutTitle h1 {
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.aboutText1 p,
+.aboutText2 p {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .aboutTitle h1 {
+    font-size: 2.5rem;
+  }
+  .aboutText1 p,
+  .aboutText2 p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    width: 70vw;
+  }
+  .aboutTitle h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .aboutText1 p,
+  .aboutText2 p {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+  }
+}
