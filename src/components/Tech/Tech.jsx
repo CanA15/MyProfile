@@ -13,11 +13,11 @@ function Tech() {
         <div className={styles.techstackTransition}>
           <h2>
             What started as curiosity has evolved into a deep passion for
-            software development.
+            technology
           </h2>
         </div>
         <div className={styles.techstackTitle}>
-          <h2>My current Techstack</h2>
+          <h2>My current Web-Development Techstack</h2>
         </div>
         <div className={styles.techstackLogos}>
           <img src={jsLogo} alt='MacOS Logo' />

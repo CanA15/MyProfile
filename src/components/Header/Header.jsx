@@ -27,7 +27,7 @@ function Header() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, ease: 'easeOut', delay: 0.3 }}
             >
-              Full-time College Student & Software-Developer
+              Full-time College Student
             </motion.h2>
             <motion.h2
               initial={{ y: -10, opacity: 0 }}
